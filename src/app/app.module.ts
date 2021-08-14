@@ -16,7 +16,8 @@ import { UserPipe } from './pipes/user.pipe';
     AppComponent,
     HeaderComponent,
     UserComponent,
-    UserSearchFormComponent
+    UserSearchFormComponent,
+    UserDirective
   ],
   imports: [
     BrowserModule,
