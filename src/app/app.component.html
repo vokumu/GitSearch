@@ -1,3 +1,6 @@
 <app-header></app-header>
 <app-user-search-form (requiredUser)="findUser($event)"></app-user-search-form>
 <app-user [user]="gitUser"></app-user>
+
+<app-repositories [repos]="gitHubRepos"></app-repositories>
+<router-outlet></router-outlet>

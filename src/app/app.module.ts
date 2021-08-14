@@ -10,6 +10,7 @@ import { UserSearchFormComponent } from './user-search-form/user-search-form.com
 import { FormsModule } from '@angular/forms';
 import { UserDirective } from './directives/user.directive';
 import { UserPipe } from './pipes/user.pipe';
+import { RepositoriesComponent } from './repositories/repositories.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserPipe } from './pipes/user.pipe';
     UserComponent,
     UserSearchFormComponent,
     UserDirective,
-    UserPipe
+    UserPipe,
+    RepositoriesComponent
   ],
   imports: [
     BrowserModule,
