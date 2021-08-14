@@ -9,5 +9,12 @@ import { Observable } from 'rxjs';
 export class DataService {
 
   constructor(private http:HttpClient) { }
+
+  getGitHubUsers(searchQuery:string):Observable<any>{
+    
+    return this.http.get<any>(`https://api.github.com/users/${searchQuery}?=${this.apiKey}`
+    )
+  }
+
   
 }
