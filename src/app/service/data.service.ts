@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DataService {
+  apiKey:string = environment.gitApiKey
 
   constructor(private http:HttpClient) { }
 
