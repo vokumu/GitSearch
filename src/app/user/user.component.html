@@ -1,1 +1,18 @@
-<p>user works!</p>
+<div appUser class="userInfo" *ngIf="user">
+    <img src="{{user.avatar_url}}" alt="">
+    <div>
+        <h3>{{user.login | titlecase}}</h3>
+        <p id="para1">Followers: {{user.followers}}</p>
+        <p id="para2">Following: {{user.following}}</p>
+    </div>
+
+</div>
+<div appUser class="userInfo userInfo2" *ngIf="user">
+
+    <div>
+        <p>Location: <strong>{{user.location | titlecase}}</strong> </p>
+        <p>Public repos: <strong>{{user.public_repos}}</strong></p>
+        <p>Public gists: <strong>{{user.public_gists}}</strong></p>
+    </div>
+
+</div>

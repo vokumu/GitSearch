@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { UserComponent } from './user/user.component';
 import { UserSearchFormComponent } from './user-search-form/user-search-form.component';
+import { FormsModule } from '@angular/forms';
+import { UserDirective } from './directives/user.directive';
+import { UserPipe } from './pipes/user.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import { UserSearchFormComponent } from './user-search-form/user-search-form.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
