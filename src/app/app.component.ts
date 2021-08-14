@@ -20,6 +20,13 @@ export class AppComponent {
 
     this.dataService.getGitHubUsers(this.userName).subscribe(data => {this.gitUser = data
       console.log(data)})
+    
+    
+      this.dataService.getGitHubRepos(this.userName).subscribe(data => {
+        this.gitHubRepos = data
+        console.log(data)
+      })
+    
 }
 
 }
