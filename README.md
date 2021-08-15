@@ -1,14 +1,20 @@
-# GitSearch
-
+# GitHub User Search Application
+---
+## Project Description
+Github User Search application is a simple website that allows one search for  a github user based on their username and display their details together with
+the repository created by that user.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
+## Author Information
+[Victoria Okumu](https://github.com/vokumu)
+
+# Setup Instructions  
+To start using this project use the following:
 ## Development server
+Run ng serve -o or ng serve --open and this will open in a browser at port 4200 by default but can also be assigned another pport if localhost:4200 is being used.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
+Once you have cloned the project, you need to install the dev tools using npm install so that the project will run
 
 ## Build
 
@@ -22,6 +28,25 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+# View Site
+[View site](https://vokumu.github.io/QuotesApp/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#  Technologies Used 
+        *HTML
+        *TYPESCRIPT
+        *JAVASCRIPT
+        *CSS
+
+# Contact Information
+- Email <victoriawasonga@gmail.com>
+
+# Copyright  & License
+## Copyright
+        *AngularJs
+        *Bootstrap
+
+
+## License
+[MIT](LICENSE)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
