@@ -1,6 +1,11 @@
 <app-header></app-header>
 <app-user-search-form (requiredUser)="findUser($event)"></app-user-search-form>
-<app-user [user]="gitUser"></app-user>
-
-<app-repositories [repos]="gitHubRepos"></app-repositories>
+<div class="row mb-5">
+    <div class="col-sm-6">
+        <app-user [user]="gitUser"></app-user>
+    </div>
+    <div class="col-sm-6">
+        <app-repositories [repos]="gitHubRepos"></app-repositories>
+    </div>
+</div>
 <router-outlet></router-outlet>
