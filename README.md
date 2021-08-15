@@ -29,7 +29,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 # View Site
-[View site](https://vokumu.github.io/QuotesApp/)
+[View site](https://vokumu.github.io/GitSearch/)
 
 #  Technologies Used 
         *HTML
